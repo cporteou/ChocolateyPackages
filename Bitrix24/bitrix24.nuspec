@@ -17,7 +17,7 @@
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl></licenseUrl> -->
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
-    <!-- <projectSourceUrl></projectSourceUrl> -->
+    <projectSourceUrl>https://www.bitrix24.com/apps/mobile-and-desktop-apps.php</projectSourceUrl>
     <docsUrl>https://training.bitrix24.com/support/training/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
