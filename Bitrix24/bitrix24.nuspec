@@ -6,7 +6,7 @@
     <id>bitrix24</id>
 
     <version>7.0.44.42</version>
-    <packageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/bitrix24</packageSourceUrl>
+    <packageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/Bitrix24</packageSourceUrl>
 
     <owners>CPorteous</owners>
 
@@ -18,7 +18,7 @@
     <!-- <licenseUrl></licenseUrl> -->
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
     <projectUrl>https://www.bitrix24.com/apps/mobile-and-desktop-apps.php</projectUrl>
-    <docsUrl>https://training.bitrix24.com/support/training/</docsUrl>
+    <docsUrl>https://www.bitrix24.eu/support/links.php</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>Bitrix Bitrix24 CRM</tags>
