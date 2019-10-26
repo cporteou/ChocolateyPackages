@@ -5,9 +5,9 @@
     <title>{{PackageName}}</title>
     <version>{{PackageVersion}}</version>
     <authors>Microsoft</authors>
-    <owners>Jivko Kolev</owners>
+    <owners>Jivko Kolev, Craig Porteous</owners>
     <projectUrl>https://powerbi.microsoft.com/desktop</projectUrl>
-    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/PowerBI/ms.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/cporteou/ChocolateyPackages/master/PowerBI/PowerBI.png</iconUrl>
     <licenseUrl>https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Create stunning reports and visualizations with Power BI Desktop</summary>
@@ -25,5 +25,6 @@ The Power BI Desktop is an elegant end-to-end solution for building analytics. T
 We know you need to get data into the hands of decision makers when and where they need it. Power BI makes publishing and sharing your beautiful interactive reports easy.
 </description>
     <tags>power bi desktop data analytics visualize</tags>
+    <PackageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/PowerBI</packageSourceUrl>
   </metadata>
 </package>

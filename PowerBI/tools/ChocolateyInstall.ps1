@@ -1,26 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = '{{PackageName}}'
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = '{{DownloadUrl}}'
-$url64      = '{{DownloadUrlx64}}'
-
 $packageArgs = @{
-  packageName   = $packageName
-  unzipLocation = $toolsDir
-  fileType      = 'MSI'
-  url           = $url
-  url64bit      = $url64
-
-  softwareName  = '{{PackageName}}*'
-
-  checksum      = '{{Checksum}}'
-  checksumType  = 'sha256'
-  checksum64    = '{{Checksumx64}}'
-  checksumType64= 'sha256'
-
-  silentArgs    = "/qb ACCEPT_EULA=1 /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
-  validExitCodes= @(0, 3010, 1641)
+  packageName    = $env:ChocolateyPackageName
+  url            = 'https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe'
+  url64bit       = 'https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe'
+  checksum       = '9A42793F1E4B6B1D642C05A41D1D03F49A79DA1A85F09E508A5367DE69222002'
+  checksumType   = 'SHA256'
+  checksum64     = '23674359BC702FAB1F38C161E183922AF0D2AB972028564F647518AA72A862E8'
+  checksumType64 = 'SHA256'
+  fileType       = 'EXE'
+  silentArgs     = "/qb ACCEPT_EULA=1 INSTALLDESKTOPSHORTCUT=0 /NORESTART"
+  validExitCodes = @(0, 3010, 1641)
 }
 
 Install-ChocolateyPackage @packageArgs
