@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>{{PackageName}}</title>
-    <version>{{PackageVersion}}</version>
+    <id>PowerBI</id>
+    <title>Power BI Desktop</title>
+    <version>2.74.5619.862</version>
     <authors>Microsoft</authors>
-    <owners>Jivko Kolev, Craig Porteous</owners>
+    <owners>Craig Porteous</owners>
     <projectUrl>https://powerbi.microsoft.com/desktop</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/cporteou/ChocolateyPackages/master/PowerBI/PowerBI.png</iconUrl>
     <licenseUrl>https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx</licenseUrl>
@@ -25,6 +25,6 @@ The Power BI Desktop is an elegant end-to-end solution for building analytics. T
 We know you need to get data into the hands of decision makers when and where they need it. Power BI makes publishing and sharing your beautiful interactive reports easy.
 </description>
     <tags>power bi desktop data analytics visualize</tags>
-    <PackageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/PowerBI</packageSourceUrl>
+    <packageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/PowerBI</packageSourceUrl>
   </metadata>
 </package>
