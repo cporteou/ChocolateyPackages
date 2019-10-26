@@ -9,7 +9,7 @@ $packageArgs = @{
   checksum64     = '23674359BC702FAB1F38C161E183922AF0D2AB972028564F647518AA72A862E8'
   checksumType64 = 'SHA256'
   fileType       = 'EXE'
-  silentArgs     = "/qb ACCEPT_EULA=1 INSTALLDESKTOPSHORTCUT=0 /NORESTART"
+  silentArgs     = '/s'
   validExitCodes = @(0, 3010, 1641)
 }
 
