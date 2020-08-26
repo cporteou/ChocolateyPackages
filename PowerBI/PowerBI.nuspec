@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>PowerBI</id>
-    <version>2.75.5649.961</version>
+    <version>2.84.861.0</version>
     <packageSourceUrl>https://github.com/cporteou/ChocolateyPackages/tree/master/PowerBI</packageSourceUrl>
     <owners>Craig Porteous</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -30,7 +30,11 @@ The Power BI Desktop is an elegant end-to-end solution for building analytics. T
 We know you need to get data into the hands of decision makers when and where they need it. Power BI makes publishing and sharing your beautiful interactive reports easy.
 </description>
     <tags>powerbi power bi desktop data analytics visualize</tags>
-  </metadata>
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+  <dependencies>
+    <dependency id="dotnet4.5.2" />
+  </dependencies>
+  </metadata>  
   <files>
     <file src="tools\**" target="tools" />
   </files>

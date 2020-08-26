@@ -1,4 +1,4 @@
-import-module au
+Import-module au
 
 function global:au_GetLatest {
    $MainURL = 'https://powerbi.microsoft.com/en-us/desktop/'

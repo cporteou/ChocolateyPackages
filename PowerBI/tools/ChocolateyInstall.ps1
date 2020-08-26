@@ -4,9 +4,9 @@ $packageArgs = @{
    packageName    = $env:ChocolateyPackageName
    url            = 'https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe'
    url64bit       = 'https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe'
-   checksum       = '60beeb08a95f51775528f1a87d4b8edeabc63f483a4cd98a2230565d17866d10'
+   checksum       = 'bb5b0150c6d091e84286ff4ca7133d16d656018be5ab473867e921639d9a8c1f'
    checksumType   = 'SHA256'
-   checksum64     = 'c476bc9f3a6aa0cb748a69ccf9d63e33135e78ab0a483ce1c8eae2db90ac17c0'
+   checksum64     = 'e6b3c9180395a9151669dd682b8f6fc4215675f1396e94ca5a182131be763d59'
    fileType       = 'EXE'
    silentArgs     = "-quiet -norestart ACCEPT_EULA=1 -log `"$env:TEMP\$env:ChocolateyPackageName.$env:chocolateyPackageVersion.Install.log`""
    validExitCodes = @(0, 3010, 1641)
